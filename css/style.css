@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f3ea;
+}
+
+header {
+    background-color: #c62d28;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative; 
+}
+
+header h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#italia-image {
+    max-width: 100px; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+
+nav {
+    background-color: #013220; 
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); 
+}
+
+section h2 {
+    color: #c62d28; 
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+article h3 {
+    color: #013220; 
+    font-size: 20px;
+    margin-top: 0;
+}
+
+article p {
+    font-size: 16px;
+}
+
+article a {
+    color: #c62d28; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.medium-image {
+    max-width: 120px; 
+}
+
+.item {
+    text-align: left; 
+    margin-bottom: 20px; 
+}
+
+.item img {
+    display: block; 
+    margin-bottom: 10px; 
+}
+
+.pizza-image {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.pizza-image img {
+    max-width: 100%; 
+}
+
+.ingredient-image {
+    text-align: left; 
+    margin-top: 20px; 
+}
+
+.ingredient-image img {
+    width: 200px; 
+    display: block; 
+}
+footer {
+    background-color: #013220; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
